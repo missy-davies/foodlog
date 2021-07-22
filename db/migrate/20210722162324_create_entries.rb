@@ -7,7 +7,7 @@ class CreateEntries < ActiveRecord::Migration[5.2]
       t.integer :carbohydrates
       t.integer :fats
 
-      t.timestamps
+      t.timestamps # timestamps automatically cretates created_at and updated_at fields 
     end
   end
 end
