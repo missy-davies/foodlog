@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
+This is a simple calorie tracking app where you can add meals and keep track 
+of calories, proteins, carbohydrates, and fats for each meal. 
 
-Things you may want to cover:
+I built this app to learn Ruby on Rails by following then expanding on this
+[YouTube tutorial by Traversy Media](https://youtu.be/B3Fbujmgo60). 
 
-* Ruby version
+## Features 
+- Create, save, and edit meals 
+- View today's meals or an archive of all past meals with an overview of 
+calories and macros 
 
-* System dependencies
+![Demo](/app/assets/images/demo.gif)
 
-* Configuration
+## Technologies
+Languages:
+- Ruby
+- HTML
+- CSS
 
-* Database creation
+Frameworks & Libraries:
+- Rails
+- Bulma 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Database:
+ - SQLite3
